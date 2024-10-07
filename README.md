@@ -11,12 +11,12 @@ oc create configmap console-custom-logo --from-file sunbeam60px.jpg -n openshift
 oc edit consoles.operator.openshift.io cluster
 
 and add following line.
-
+```
 spec:
   customization:
     customLogoFile:
       key: sunbeam60px.jpg
       name: console-custom-logo
     customProductName: Yajuvendra's Console
-
+```
 
