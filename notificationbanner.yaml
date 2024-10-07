@@ -1,0 +1,12 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: example
+spec:
+  text: This is my cluster.
+  location: BannerTop 1
+  link:
+    href: 'https://www.redhat.com'
+    text: My Link
+  color: '#fff'
+  backgroundColor: '#0088ce'
