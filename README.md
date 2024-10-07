@@ -13,8 +13,11 @@ oc edit consoles.operator.openshift.io cluster
 and add following line.
 
 spec:
+
   customization:
+  
     customLogoFile:
+    
       key: sunbeam60px.jpg
       name: console-custom-logo
     customProductName: Yajuvendra's Console
