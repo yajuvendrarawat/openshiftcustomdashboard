@@ -4,7 +4,7 @@ metadata:
   name: example
 spec:
   text: This is my cluster.
-  location: BannerTop 1
+  location: BannerTop
   link:
     href: 'https://www.redhat.com'
     text: My Link
